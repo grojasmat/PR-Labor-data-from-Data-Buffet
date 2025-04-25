@@ -75,7 +75,7 @@ df.insert(0, "Date", date_range)
 print(df)
 
 # Convert the DataFrame to a CSV file and save it in the specified directory
-output_path = r"C:\Users\rojasmag\OneDrive - Moody's\Documents\PR_labor_test.csv"
+output_path = r"C:\Users\xxx\PR_labor_test.csv" #edit the path
 df.to_csv(output_path, index=False)
 print(f"DataFrame has been saved to {output_path}")
 
